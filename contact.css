@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Publicsans" sans-serif;
+    src: url(./fonts/PublicSans-Regular.ttf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Publicsans" sans-serif;
+    src: url(./fonts/PublicSans-Bold.ttf);
+    font-weight: 700;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+}
+
+hr{
+    margin-top: 70px;
+}
+
+.hero{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    
+}
+.hero-text{
+    font-family:' Publicsans' sans-serif;
+    font-weight: 400;
+    width: 635px;
+    margin-bottom: 20px;
+}
+
+.hero-menu{
+    margin-left: 30%;
+}
+
+.fa-brands{
+    width: 25px;
+}
+
+.form{
+    margin-top: 30px;
+    display: flex;
+    gap: 450px;
+    height: 426px;
+}
+span{
+    width: 350px;
+}
+
+.mb-3{
+    width: 635px;
+}
+
+.btn{
+    color: white;
+    width: 200px;
+    background-color:rgba(32, 58, 76, 1);
+    padding: 20px 60px;
+}
+
+.footer{
+    padding: 30px 60px;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: black;
+}
+
+.footer-list{
+    color: white;
+}
+
+.footer3{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.fa-brands{
+    background-color: white;
+    width: 24px;
+
+}
